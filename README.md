@@ -1,8 +1,8 @@
-# Introducci&oacute;n a la gen&oacute;mica evolutiva - LCG-UM5
+# Introducci&oacute;n a la gen&oacute;mica evolutiva - LEG/UM5
 
 ## Ediciones del Curso
 
-1a. Edición: [EG1-UM5](http://www.fsr.ac.ma/content/g%C3%A9nomique) en la Faculté des Sciences Rabat, 10-14 Junio, 2019.
+1a. Edición: [EG1-LEG/UM5](http://www.fsr.ac.ma/content/g%C3%A9nomique) en la Faculté des Sciences Rabat, 10-14 Junio, 2019.
 
 <!-- <img src="docs/pics/Participantes_curso_intro2phyloinfo_UNLP_2-6Julio2018.jpg" /> -->
 
@@ -25,6 +25,23 @@ A trav&eacute;s de estas p&aacute;ginas se distribuyen los apuntes, ejercicios y
 Es una recopilaci&oacute; de material desarrollado por [Pablo Vinuesa](http://www.ccg.unam.mx/~vinuesa/), instructor del Taller, 
 para diversos cursos y talleres que ha impartido principalmente en la [Universidad Nacional Aut&oacute;noma de M&eacute;xico - UNAM](https://www.unam.mx/). 
 Este matrial docente lo distribuyo p&uacute;blicamente a trav&eacute;s de este repositorio GitHub bajo la licencia de Creative Commons.
+
+
+### Licencia y t&eacute;rminos de uso
+Este material docente del curso [**GE1-LEG-UM5**](https://github.com/vinuesa/intro2phyloinfo) lo distribuyo p&uacute;blicamente a trav&eacute;s de este [repositorio GitHub](https://github.com/vinuesa/intro2phyloinfo) bajo la [**Licencia No Comercial Creative Commons 4.0**](https://creativecommons.org/licenses/by-nc/4.0/) 
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 
+
+#### Clonaci&oacute;n del repositorio
+Si tienes instalado [git](https://git-scm.com/) en tu computadora, puedes clonar el repositorio con el comando:
+
+   <code>git clone https://github.com/vinuesa/Evolutionary_Genomics1-LEG-UM5.git</code>
+
+En [ubuntu](https://www.ubuntu.com/) es muy f&aacute;cil instalar git: 
+
+  <code>sudo apt install git</code>
+
+
 
 <!--
 ### ¿Horario y lugar de impartici&oacute;n de las sesiones?
