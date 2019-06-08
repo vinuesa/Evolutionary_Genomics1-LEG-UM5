@@ -13,7 +13,7 @@
 
 ### About the instructor
 Hi, I'm [Pablo Vinuesa](http://www.ccg.unam.mx/~vinuesa/) and work as a professor @
-[Centro de Ciencias Gen&oacute;micas](http://www.ccg.unam.mx) from the 
+[Center for Genome Sciences](http://www.ccg.unam.mx) from the 
 [Universidad Nacional Aut&oacute;noma de M&eacute;xico - UNAM](http://www.unam.mx/).
 
 Mi [research lines](http://www.ccg.unam.mx/~vinuesa/research.html) 
@@ -21,7 +21,7 @@ integrate genomics and bioinformatics with molecular genetics and biology to stu
 of opportunistic nosocomial pathogens from environmental bacteria.
 
 ### On teaching materials
-They are distributed from this [GitHub repository]((https://github.com/vinuesa/Evolutionary_Genomics1-LEG-UM5) and include the slides, exercises and data that will be used in the course. These materials were compiled them from those I've developed over the years to teach diverse courses at the 
+They are distributed from this [GitHub repository](https://github.com/vinuesa/Evolutionary_Genomics1-LEG-UM5) and include the slides, exercises and data that will be used in the course. These materials were compiled them from those I've developed over the years to teach diverse courses at the 
  [Universidad Nacional Aut&oacute;noma de M&eacute;xico - UNAM](https://www.unam.mx/). The current version of the materials is written in Spanish. Future versions will be progressively translated to English.
 
 ### Licencia y t&eacute;rminos de uso
@@ -91,7 +91,7 @@ To follow the course practicals, you will need to install the following software
 
 <!--
 
-2. Gen&oacute;mica comparativa y pan-gen&oacute;mica [presentaci&oacute;n - PDF](https://github.com/vinuesa/intro2phyloinfo/tree/master/docs/introduccion_a_la_pangenomica_microbiana_OMICAS-UAEM_Mar18.pdf)
+2. Gen&oacute;mica comparativa y pan-gen&oacute;mica [presentaci&oacute;n - PDF](https://github.com/vinuesa/Evolutionary_Genomics1-LEG-UM5/tree/master/docs/introduccion_a_la_pangenomica_microbiana_OMICAS-UAEM_Mar18.pdf)
  + pr?cticas con [GET_HOMOLOGUES](https://github.com/eead-csic-compbio/get_homologues) [tutorial html](http://eead-csic-compbio.github.io/get_homologues/manual/manual.html)
 3. Filogen&oacute;mica y estructura filogen?tica del pan-genoma
  +  pr?cticas con [GET_PHYLOMARKERS](https://github.com/vinuesa/get_phylomarkers)
@@ -101,67 +101,65 @@ Creative Commons](https://creativecommons.org/).
 
 -->
 
-### Tema 0: Introducci&oacute;n al bioc&oacute;mputo en sistemas GNU/Linux (2-07-2018)
+### Tema 0: Introduction to GNU/Linux
+Work in genomics is mostly performed on UNIX or GNU/Linux servers. It is therefore essential to work proficiently in these environments.
+Therfore:
 
-El trabajo en gen&oacute;mica se realiza en servidores UNIX o GNU/Linux de alto rendimiento. Es por ello 
-esencial familiarizarse con este ambiente de c&oacute;mputo al inicio de la formaci&oacute;n acad&eacute;mica. 
-En consecuencia:
+- all practical sessions will be run using GNU/Linux as the operating system
+- we'll start the course by learning basic Linux commands and Bash programming
 
-- todas las pr&aacute;cticas asociadas a este Taller se realizan en m&aacute;quinas GNU/Linux
-- iniciamos el Taller aprendiendo un poco de Linux. 
-
-#### Introducci&oacute;n al bioc&oacute;mputo en sistemas GNU/Linux 
-- [presentaci&oacute;n - PDF](https://vinuesa.github.io/intro2phyloinfo/Intro2biocomputo_sistemas_en_sistemas_UNIX-Linux.pdf)
+#### Biocomputing on GNU/Linux machines
+- [presentaci&oacute;n - PDF](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/Intro2biocomputo_sistemas_en_sistemas_UNIX-Linux.pdf)
 
 #### Pr&aacute;ctica 1. Primer contacto con un sistema GNU/Linux
-- [pr&aacute;ctica1 - html](https://vinuesa.github.io/intro2phyloinfo/intro2linux/)
-- [pr&aacute;ctica1 - pdf](https://vinuesa.github.io/intro2phyloinfo/intro2linux/working_with_linux_commands.pdf)
-- [pr&aacute;ctica1 - tabla_comandos](https://vinuesa.github.io/intro2phyloinfo/intro2linux/linux_commands.tab)
+- [pr&aacute;ctica1 - html](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/intro2linux/)
+- [pr&aacute;ctica1 - pdf](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/intro2linux/working_with_linux_commands.pdf)
+- [pr&aacute;ctica1 - tabla_comandos](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/intro2linux/linux_commands.tab)
 
 
 #### Pr&aacute;ctica 2. Descarga de secuencias en formato FASTA de GenBank usando el sistema ENTREZ y parseo de los archivos usando herrramientas de filtrado
-- [pr&aacute;ctica2 - html](https://vinuesa.github.io/intro2phyloinfo/practica2_parseo_fastas/)
-- [pr&aacute;ctica2 - pdf](https://vinuesa.github.io/intro2phyloinfo/practica2_parseo_fastas/ejercicio_parseo_fastas_ENTREZ.pdf)
-- [pr&aacute;ctica2 - fasta](https://vinuesa.github.io/intro2phyloinfo/practica2_parseo_fastas/data/recA_Bradyrhizobium_vinuesa.fa)
+- [pr&aacute;ctica2 - html](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/practica2_parseo_fastas/)
+- [pr&aacute;ctica2 - pdf](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/practica2_parseo_fastas/ejercicio_parseo_fastas_ENTREZ.pdf)
+- [pr&aacute;ctica2 - fasta](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/practica2_parseo_fastas/data/recA_Bradyrhizobium_vinuesa.fa)
 
 ### Tema 1: Conceptos básicos de evolución
-- [presentación - pdf](https://vinuesa.github.io/intro2phyloinfo/tema1_conceptos_basicos_evolucion/Teoria1_conceptos_básicos_de_filoinformática_y_diversidad_microbiana.pdf)
+- [presentación - pdf](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema1_conceptos_basicos_evolucion/Teoria1_conceptos_básicos_de_filoinformática_y_diversidad_microbiana.pdf)
 
 ### Tema 2: Búsqueda de homólogos mediante BLAST: teoría y práctica
-- [presentación - pdf](https://vinuesa.github.io/intro2phyloinfo/tema2_BLAST/Tema2_BLAST_OVERVIEW.pdf)
-- [pr&aacute;ctica1 - comandos](https://vinuesa.github.io/intro2phyloinfo/tema2_BLAST/data/running_and_parsing_BLAST_from_the_cmmd_line.commands)
-- [pr&aacute;ctica1 - 16S_4blastN.tgz ](https://vinuesa.github.io/intro2phyloinfo/tema2_BLAST/data/16S_4blastN.tgz)
-- [pr&aacute;ctica1 - gene_discovery_and_annotation_using_blastx.tgz](https://vinuesa.github.io/intro2phyloinfo/tema2_BLAST/data/gene_discovery_and_annotation_using_blastx.tgz)
+- [presentación - pdf](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema2_BLAST/Tema2_BLAST_OVERVIEW.pdf)
+- [pr&aacute;ctica1 - comandos](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema2_BLAST/data/running_and_parsing_BLAST_from_the_cmmd_line.commands)
+- [pr&aacute;ctica1 - 16S_4blastN.tgz ](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema2_BLAST/data/16S_4blastN.tgz)
+- [pr&aacute;ctica1 - gene_discovery_and_annotation_using_blastx.tgz](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema2_BLAST/data/gene_discovery_and_annotation_using_blastx.tgz)
 
 ### Tema 3: Alineamientos múltiples: teoría y práctica
-- [presentación - pdf](https://vinuesa.github.io/intro2phyloinfo/tema3_alineamientos_multiples/Tema3_alineamientos_multiples.pdf)
-- [pr&aacute;ctica1 - tgz](https://vinuesa.github.io/intro2phyloinfo/tema3_alineamientos_multiples/data/practicas_aln_multiples.tgz)
+- [presentación - pdf](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema3_alineamientos_multiples/Tema3_alineamientos_multiples.pdf)
+- [pr&aacute;ctica1 - tgz](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema3_alineamientos_multiples/data/practicas_aln_multiples.tgz)
 
 
 ### Tema 4: Introducción a los métodos filogenéticos y modelado paramétrico de evolución de secuencias nucleotídicas: teoría y práctica
-- [presentación - pdf](https://vinuesa.github.io/intro2phyloinfo/tema4_modelos_y_maxima_verosimilitud/Tema4_intro_a_la_filogenetica_y_modelos_de_sustitucion.pdf)
+- [presentación - pdf](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema4_modelos_y_maxima_verosimilitud/Tema4_intro_a_la_filogenetica_y_modelos_de_sustitucion.pdf)
 
 ### Tema 5: Máxima verosimilitud: estima de parámetros y selección de models - teoría y práctica
-- [presentación - pdf](https://vinuesa.github.io/intro2phyloinfo/tema4_modelos_y_maxima_verosimilitud/Tema5_maxima_verosimilitud_y_seleccion_de_modelos.pdf)
-- [pr&aacute;ctica1 - tgz](https://vinuesa.github.io/intro2phyloinfo/tema4_modelos_y_maxima_verosimilitud/data/practicas_MV_y_seleccion_modelos.tgz)
+- [presentación - pdf](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema4_modelos_y_maxima_verosimilitud/Tema5_maxima_verosimilitud_y_seleccion_de_modelos.pdf)
+- [pr&aacute;ctica1 - tgz](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema4_modelos_y_maxima_verosimilitud/data/practicas_MV_y_seleccion_modelos.tgz)
 
 
 ### Tema 6: Introducción a la pangenómica microbiana con [GET_HOMOLOGUES](https://github.com/eead-csic-compbio/get_homologues) - teoría y práctica
-- [presentación - pdf](https://vinuesa.github.io/intro2phyloinfo/tema5_get_hom_get_phy/introduccion_a_la_pangenomica_microbiana_UNLP_5Jul18.pdf)
-- [pr&aacute;ctica1 - tgz](https://vinuesa.github.io/intro2phyloinfo/tema5_get_hom_get_phy/data/get_hom.tgz)
+- [presentación - pdf](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema5_get_hom_get_phy/introduccion_a_la_pangenomica_microbiana_UNLP_5Jul18.pdf)
+- [pr&aacute;ctica1 - tgz](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema5_get_hom_get_phy/data/get_hom.tgz)
 - [tutorial - GET_HOMOLOGUES/GET_PHYLOMARKERS - docker](https://vinuesa.github.io/get_phylomarkers/#get_phylomarkers-tutorial)
-- [start_docker - script](https://vinuesa.github.io/intro2phyloinfo/tema5_get_hom_get_phy/data/start_docker.sh)
+- [start_docker - script](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema5_get_hom_get_phy/data/start_docker.sh)
 
 ### Tema 7: Introducción a la filogenómica microbiana con [GET_PHYLOMARKERS](https://github.com/vinuesa/get_phylomarkers) - teoría y práctica
-- [presentación - pdf](https://vinuesa.github.io/intro2phyloinfo/tema5_get_hom_get_phy/introduccion_a_la_filogenomica_microbiana_UNLP_5Jul18.pdf)
-- [paper GET_PHYLO - pdf](https://vinuesa.github.io/intro2phyloinfo/tema5_get_hom_get_phy/data/get_phylo/Vinuesa_GET_PHYLOMARKERS_FrontMicro2018.pdf)
+- [presentación - pdf](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema5_get_hom_get_phy/introduccion_a_la_filogenomica_microbiana_UNLP_5Jul18.pdf)
+- [paper GET_PHYLO - pdf](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema5_get_hom_get_phy/data/get_phylo/Vinuesa_GET_PHYLOMARKERS_FrontMicro2018.pdf)
 - [manual - GET_PHYLOMARKERS](https://vinuesa.github.io/get_phylomarkers/#get_phylomarkers-manual)
 - [tutorial - GET_PHYLOMARKERS](https://vinuesa.github.io/get_phylomarkers/#get_phylomarkers-tutorial)
 
 
 ### Tema 8: Inferencia bayesiana de filogenias con [MrBayes](http://mrbayes.sourceforge.net/index.php) - teoría y práctica
-- [presentación - pdf](https://vinuesa.github.io/intro2phyloinfo/tema6_inferencia_bayesiana/inferencia_bayesiana_con_MrBayes.pdf)
-- [pr&aacute;ctica1 - tgz](https://vinuesa.github.io/intro2phyloinfo/tema6_inferencia_bayesiana/data/MrBayes.tgz)
+- [presentación - pdf](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema6_inferencia_bayesiana/inferencia_bayesiana_con_MrBayes.pdf)
+- [pr&aacute;ctica1 - tgz](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema6_inferencia_bayesiana/data/MrBayes.tgz)
 
 
 <!--
