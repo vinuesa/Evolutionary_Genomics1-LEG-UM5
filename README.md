@@ -1,43 +1,40 @@
-# Introducci&oacute;n a la gen&oacute;mica evolutiva - LEG/UM5
+# Introduction to evolutionary genomics - LEG/UM5
 
-## Ediciones del Curso
+## Course (editions)
 
-1a. Edición: [EG1-LEG/UM5](http://www.fsr.ac.ma/content/g%C3%A9nomique) en la Faculté des Sciences Rabat, 10-14 Junio, 2019.
+1st. Edition [EG1-LEG/UM5](http://www.fsr.ac.ma/content/g%C3%A9nomique) @ Faculté des Sciences Rabat, June 10-14, 2019.
 
 <!-- <img src="docs/pics/Participantes_curso_intro2phyloinfo_UNLP_2-6Julio2018.jpg" /> -->
 
 
 ***
  
-## Presentaci&oacute;n
+## Presentation
 
-### El profesor
-Hola, me llamo [Pablo Vinuesa](http://www.ccg.unam.mx/~vinuesa/). Soy investigador titular del 
-[Centro de Ciencias Gen&oacute;micas](http://www.ccg.unam.mx) de la 
+### About the instructor
+Hi, I'm [Pablo Vinuesa](http://www.ccg.unam.mx/~vinuesa/) and work as a professor @
+[Centro de Ciencias Gen&oacute;micas](http://www.ccg.unam.mx) from the 
 [Universidad Nacional Aut&oacute;noma de M&eacute;xico - UNAM](http://www.unam.mx/).
 
-Mis [l&iacute;neas de investigaci&oacute;n](http://www.ccg.unam.mx/~vinuesa/research.html) 
-integran la gen&oacute;mica y la bioinform&aacute;tica con la biolog&aacute;a y gen&eacute;tica molecular para entender 
-la evoluci&oacute;n y emergencia de pat&oacute;genos oportunistas a partir de microbios ambientales.
+Mi [research lines](http://www.ccg.unam.mx/~vinuesa/research.html) 
+integrate genomics and bioinformatics with molecular genetics and biology to study the evolution and raise
+of opportunistic nosocomial pathogens from environmental bacteria.
 
-### Sobre el material did&aacute;ctico
-A trav&eacute;s de estas p&aacute;ginas se distribuyen los apuntes, ejercicios y datos que se usar&aacute;n en el Taller.
-Es una recopilaci&oacute; de material desarrollado por [Pablo Vinuesa](http://www.ccg.unam.mx/~vinuesa/), instructor del Taller, 
-para diversos cursos y talleres que ha impartido principalmente en la [Universidad Nacional Aut&oacute;noma de M&eacute;xico - UNAM](https://www.unam.mx/). 
-Este matrial docente lo distribuyo p&uacute;blicamente a trav&eacute;s de este repositorio GitHub bajo la licencia de Creative Commons.
-
+### On teaching materials
+They are distributed from this [GitHub repository]((https://github.com/vinuesa/Evolutionary_Genomics1-LEG-UM5) and include the slides, exercises and data that will be used in the course. These materials were compiled them from those I've developed over the years to teach diverse courses at the 
+ [Universidad Nacional Aut&oacute;noma de M&eacute;xico - UNAM](https://www.unam.mx/). The current version of the materials is written in Spanish. Future versions will be progressively translated to English.
 
 ### Licencia y t&eacute;rminos de uso
-Este material docente del curso [**GE1-LEG-UM5**](https://github.com/vinuesa/intro2phyloinfo) lo distribuyo p&uacute;blicamente a trav&eacute;s de este [repositorio GitHub](https://github.com/vinuesa/intro2phyloinfo) bajo la [**Licencia No Comercial Creative Commons 4.0**](https://creativecommons.org/licenses/by-nc/4.0/) 
+I'm releaseing these materials [**EG-LEG-UM5**](https://github.com/vinuesa/Evolutionary_Genomics1-LEG-UM5) to the public domain through this [GitHub repository]((https://github.com/vinuesa/Evolutionary_Genomics1-LEG-UM5) under a [**No Comercial Creative Commons 4.0 License**](https://creativecommons.org/licenses/by-nc/4.0/) 
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 
 
-#### Clonaci&oacute;n del repositorio
-Si tienes instalado [git](https://git-scm.com/) en tu computadora, puedes clonar el repositorio con el comando:
+#### Cloning of the repository
+If you have [git](https://git-scm.com/) installed on your machine, you can clone the repo by issuing the following command:
 
    <code>git clone https://github.com/vinuesa/Evolutionary_Genomics1-LEG-UM5.git</code>
 
-En [ubuntu](https://www.ubuntu.com/) es muy f&aacute;cil instalar git: 
+On [ubuntu](https://www.ubuntu.com/) (and other Linux) machines it is very easy to install git: 
 
   <code>sudo apt install git</code>
 
@@ -53,36 +50,36 @@ de 9 a 18 hrs. Algunas sesines te&oacute;ricas esperamos poder impartirlas en el
 
 -->
 
-### Objetivos, estructura y resumen de contenidos del Taller
-Cada tema tiene un bloque de teor&iacute;a y una o m&aacute;s sesiones pr&aacute;cticas asociadas. Se explicar&aacute;n los principios b&aacute;sicos de b&uacute;squeda de hom&oacute;logos en bases de datos, alineamientos m&uacute;ltiples, e inferencia filogen&eacute;tica, para culminar con el an&aacute;lisis pangen&oacute;mico y filogen&oacute;mico de genomas microbianos.
+### Aims, structure and overview of the course
+Each chapter has an introductory section describing the key concepts underlying the diverse bioinformatics and evolutionary gentics topics under discussion, followed by one or more hands-on practical sessions. The course will walk you through the basics of homology searching on local machines (formatting of sequence databases for BLAST searches), multiple sequence alignment and phylogenetic inference under the maximum-likelihood and Bayesian optimality criteria, progressing towards microbial pan-genome analysis and phylogenomics. 
 
-#### Lunes 2. 
-- Introducción a Linux (teoría y práctica)
-- Conceptos básicos de biología evolutiva y filogenética
+#### Monday 10. 
+- Basic concepts in evolutionary biology and phylogenetics (theory)
+- Introduction to Linux (computer lab)
 
-#### Martes 3. 
-- Búsqueda de homólogos usando BLAST desde la línea de comandos (prácticas)
-- Alineamientos múltiples (prácticas)
-- Introducción a los métodos filogenéticos, árboles de genes y de árboles de especies
+#### Tuesday 11. 
+- BLAST searching from the command line (computer lab)
+- Multiple sequence alignment (computer lab)
+- Introduction to phylogenetics, gene trees and species trees (theory)
 
-#### Miércoles 4. 
-- Modelos de sustitución y máxima verosimilitud (teoría)
-- Ajuste de modelos e inferencia de filogenias de máxima verosimilitud (prácticas)
-- Delimitación de especies bacterianas usando métodos evolutivos y datos multilocus
+#### Wednesday 12. 
+- Substitution models and phylogenetic inference under the maximum likelihood criterion (theory)
+- **Research seminar** by [Pablo Vinuesa](http://www.ccg.unam.mx/~vinuesa/): The evolution of resistance and virulence in multidrug-resistant opportunistic pathogens: a phylogenomic approach.
+- Ajuste de modelos e inferencia de filogenias de máxima verosimilitud (computer lab)
 
-#### Jueves 5. 
-- Inferencia bayesiana de filogenias (teoría y práctica)
-- Pangenómica y evolución microbiana (Seminario de investigación)
+#### Jueves 13. 
+- Bayesian phylogenetics (theory and computer lab)
+- Discussion with students and Faculty, on research projects
 
-#### Viernes 6.
-- Cómputo de familias de genes homólogos con datos genómicos (teoría)
-- Análisis pangenómico usando GET_HOMOLOGUES (prácticas)
-- Estrategias para la estima de filogenias genómicas (teoría)
-- Estima de filogenias genómicas con GET_PHYLOMARKERS (prácticas)
+#### Viernes 14.
+- Computing homologous gene families from genomic data (theory)
+- Pan-genome analyses with GET_HOMOLOGUES (computer lab)
+- Inferring genome phylogenies from core- and pan-genomes (theory)
+- Estimating genome phylogenies with GET_PHYLOMARKERS (computer lab)
 
 
 ### Software:
-
+To follow the course practicals, you will need to install the following software on your laptop/computer:
 - [GET_HOMOLOGUES](http://eead-csic-compbio)
 - [GET_PHYLOMARKERS](https://github.com/vinuesa/)
 - [Seaview (visor-editor de alineamientos y más)](http://pbil.univ-lyon1.fr/)
