@@ -125,6 +125,8 @@ Therfore:
 ### Tema 1: Conceptos básicos de evolución
 - [presentación - pdf](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema1_conceptos_basicos_evolucion/Teoria1_conceptos_básicos_de_filoinformática_y_diversidad_microbiana.pdf)
 
+<!--
+
 ### Tema 2: Búsqueda de homólogos mediante BLAST: teoría y práctica
 - [presentación - pdf](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema2_BLAST/Tema2_BLAST_OVERVIEW.pdf)
 - [pr&aacute;ctica1 - comandos](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema2_BLAST/data/running_and_parsing_BLAST_from_the_cmmd_line.commands)
@@ -167,5 +169,7 @@ Therfore:
 
 #### Pr&aacute;ctica 3. Introducci&oacute;n a la inferencia filogen&oacute;mica usando GET_PHYLOMARKERS
 - [pr&aacute;ctica1 - html](https://vinuesa.github.io/get_phylomarkers/)
+
+-->
 
 -->
