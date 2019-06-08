@@ -87,7 +87,7 @@ To follow the course practicals, you will need to install the following software
 - [FigTree (para visualizar y editar árboles)](http://tree.bio.ed.ac.uk/)
 - [MrBayes](http://mrbayes.sourceforge)
 
-## Temario detallado y material asociado
+## Detailed syllabus, slides, hands-on tutorials and data
 
 ### Theme 1: Basic concepts in microbial evolutionary genomics
 - [presentación - pdf](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema1_conceptos_basicos_evolucion/Teoria1_conceptos_básicos_de_filoinformática_y_diversidad_microbiana.pdf)
