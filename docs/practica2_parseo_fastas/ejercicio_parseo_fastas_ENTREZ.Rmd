@@ -1,0 +1,193 @@
+---
+title: "Ejercicio de parseo de archivos FASTA"
+author: "Pablo Vinuesa"
+date: "`r Sys.Date()`"
+output:
+  pdf_document:
+    toc: yes
+    toc_depth: 4
+  html_document:
+    number_sections: yes
+    toc: yes
+    toc_depth: 4
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Presentación
+
+Este código corresponde a unas prácticas escritas por [Pablo Vinuesa](http://www.ccg.unam.mx/~vinuesa/)
+para el manual de Bioinformática y Sistemática Molecular de la Facultad de Ciencias - UNAM, Abril 2015.
+
+Version: `r Sys.Date()`
+
+Adaptada para el [Taller de Filoinformática - UNLP, 2-6 Julio 2018](https://agromicrobios.biol.unlp.edu.ar/?p=221).
+
+## Preparativos
+
+1. genera el directorio practica2_parseo_fastas
+
+```
+### generemos un subdirectorio por debajo del que acabamos de crear y movámonos a él
+mkdir -p $HOME/intro2filoinfo/lunes/practica2_parseo_fastas/data && cd $HOME/intro2filoinfo/lunes/practica2_parseo_fastas/data 
+
+```
+
+2. Descarga el archivo [recA_Bradyrhizobium_vinuesa.fa](https://vinuesa.github.io/intro2phyloinfo/practica2_parseo_fastas/data/recA_Bradyrhizobium_vinuesa.fa)
+en el directorio que acabamos de generar.
+
+## Búsqueda y descarga de secuencias en GenBank usando el sistema ENTREZ
+
+El archivo recA_Bradyrhizobium_vinuesa.fa contiene secuencias parciales (amplicones de PCR) del gen *recA* de bacterias del género *Bradyrhizobium*
+disponibles en GenBank. Este bloque muestra el comando usado para descargarlas. 
+El comando debe pegarse en la ventana superior del sistema [ENTREZ](https://www.ncbi.nlm.nih.gov/nucleotide?cmd=search).
+
+```
+# pega la siguiente sentencia (sin las comillas) en la ventana de captura para interrogar la base de datos de nucleótidos
+# de NCBI mediante el sistema ENTREZ
+'Bradyrhizobium[orgn] AND vinuesa[auth] AND recA[gene]'
+
+# Una vez cargada la página, da click en el link 'send to', arriba a la derecha, y guarda en formato FASTA
+
+# renombra el archivo sequences.fasta a recA_Bradyrhizobium_vinuesa.fa
+
+```
+
+## Práctica de parseo de archivos FASTA descargados de NCBI mediante ENTREZ
+
+### Inspección y estadísticas básicas de las secuencias descargadas
+1. ¿Cuántas secuencias hay en el archivo recA_Bradyrhizobium_vinuesa.fa?
+
+```{bash}
+grep -c '>' recA_Bradyrhizobium_vinuesa.fa 
+```
+
+2.  Veamos las 5 primeras lineas de cabeceras fasta usando **grep** y **head**
+```{bash}
+ grep '>' recA_Bradyrhizobium_vinuesa.fa | head -5
+```
+
+3. Cuenta el numero de generos y especies que contiene el archivo FASTA
+```{bash}
+grep '>' recA_Bradyrhizobium_vinuesa.fa | cut -d' ' -f3 | sort | uniq -c
+```
+
+
+4. Imprime una lista ordenada de mayor a menor, del numero de especies que contiene el archivo FASTA
+
+```{bash}
+grep '>' recA_Bradyrhizobium_vinuesa.fa | cut -d' ' -f2,3 | sort | uniq -c | sort -nrk1
+```
+  
+### Edición de las cabeceras FASTA mediante herramientas de filtrado de UNIX
+
+5. Exploremos todas las cabeceras FASTA del archivo recA_Bradyrhizobium_vinuesa.fa usando **grep**
+```{bash}
+# grep '>' recA_Bradyrhizobium_vinuesa.fa | less # para verlas por página 
+grep '>' recA_Bradyrhizobium_vinuesa.fa  | head # para no hacer muy extensa la salida
+```
+
+6. simplifiquemos las cabeceras FASTA usando el comando **sed** (stream editor)
+
+El objetivo es eliminar redundancia y los campos gb|no.de.acceso, así como todos los caracteres 
+'( , ; : )' que impedirían el despliegue de un árbol filogenético, al tratarse de caracteres
+reservados del formato NEWICK.
+Dejar solo el numero GI, así como el género, especie y cepa indicados entre corchetes.
+
+Es decir vamos a:
+ - reducir Bradyrhizobium a 'B. '
+ - eliminar ' RNA poly ...' y reemplazarlo por ']'
+ - eliminar 'genosp. '
+ - sustituir espacios por guiones bajos
+
+Noten el uso de expresiones regulares como '.*' y '[[:space:]]'
+
+```{bash}
+sed 's/|gb.*| /|/; s/Bradyrhizobium /B./; s/genosp\. //; s/ RNA.*/]/; s/[[:space:]]/_/g;' recA_Bradyrhizobium_vinuesa.fa | grep '>' | head -5
+```
+
+8. Cuando estamos satisfechos con el resultado, guardamos la salida del comando en un archivo usando '>' para redirigir el flujo de STDOUT a un archivo de texto
+```{bash}
+sed 's/ recom.*cds//; s/|gb.*| /|/; s/Bradyrhizobium /B /; s/genosp\. //; s/ RNA.*/\]/; s/[[:space:]]/_/g; s/strain_//' recA_Bradyrhizobium_vinuesa.fa > recA_Bradyrhizobium_vinuesa.faed
+
+```
+
+### Generación automática de archivos FASTA especie-específicos (avanzado)
+
+9. Convertir archivos FASTA a formato "FASTAB" usando **perl** 1-liners. 
+
+Vamos a transformar los FASTAS de tal manera que las secuencias queden en la 
+misma línea que su cabecera, separada de ésta por un tabulador. Esto puede ser muy útil para 
+filtrar el archivo resultante con grep. Veamos un ejemplo:
+
+```{bash}
+perl -pe 'unless(/^>/){s/\n//g}; if(/>/){s/\n/\t/g}; s/>/\n>/' recA_Bradyrhizobium_vinuesa.faed | head
+
+```
+
+```{bash}
+perl -pe 'unless(/^>/){s/\n//g}; if(/>/){s/\n/\t/g}; s/>/\n>/' recA_Bradyrhizobium_vinuesa.faed > recA_Bradyrhizobium_vinuesa.faedtab
+```
+
+10. Filtrar  el archivo fnaedtab generado en 9 para obtener solo las secuencias de B._yuanmingense del mismo, guardarlo en un archivo y convertirlo de nuevo a formato FASTA.  
+
+```{bash}
+grep yuanmingense recA_Bradyrhizobium_vinuesa.faedtab | head -5
+```
+
+
+```{bash}
+grep yuanmingense recA_Bradyrhizobium_vinuesa.faedtab > recA_Byuanmingense.fnaedtab
+```
+
+11.  Estas dos lineas no contienen nada nuevo en cuanto a sintaxis. Simplemente llamamos a 
+perl para sustituir los tabuladores por saltos de linea y asi reconstituir el FASTA.  
+
+```{bash}
+perl -pe 'if(/>/){s/\t/\n/}' recA_Byuanmingense.fnaedtab | head -5
+```
+
+```{bash}
+perl -pe 'if(/>/){s/\t/\n/}' recA_Byuanmingense.fnaedtab > recA_Byuanmingense.fna
+```
+
+
+12. Llamar a un bucle for de shell para generar archivos fastab para todas las especies
+
+```{bash}
+for sp in $(grep '>' recA_Bradyrhizobium_vinuesa.faed | cut -d_ -f3); do 
+   grep "$sp" recA_Bradyrhizobium_vinuesa.faedtab > recA_B${sp}.fnaedtab
+done
+```
+
+13. Veamos el resultado
+
+```{bash}
+ls *fnaedtab
+```
+
+```{bash}
+head -5 recA_Bjaponicum.fnaedtab
+```
+
+
+14. Finalmente convertimos todos los archivos fnatabed a FASTA con el siguiente bucle for:
+
+```{bash}
+for file in *fnaedtab; do perl -pe 'if(/>/){s/\t/\n/}' $file > ${file%.*}.fna; done
+```
+
+15. Visualizemos las cabeceras de dos archivos FASTA especie-específicos
+
+```{bash}
+grep '>' recA_Bjaponicum.fna | head -5
+```
+
+16. y confirmemos que son fastas regulares
+```{bash}
+head -6 recA_Bjaponicum.fna
+```
+
