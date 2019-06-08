@@ -89,19 +89,11 @@ To follow the course practicals, you will need to install the following software
 
 ## Temario detallado y material asociado
 
-<!--
+### Theme 1: Basic concepts in microbial evolutionary genomics
+- [presentación - pdf](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema1_conceptos_basicos_evolucion/Teoria1_conceptos_básicos_de_filoinformática_y_diversidad_microbiana.pdf)
 
-2. Gen&oacute;mica comparativa y pan-gen&oacute;mica [presentaci&oacute;n - PDF](https://github.com/vinuesa/Evolutionary_Genomics1-LEG-UM5/tree/master/docs/introduccion_a_la_pangenomica_microbiana_OMICAS-UAEM_Mar18.pdf)
- + pr?cticas con [GET_HOMOLOGUES](https://github.com/eead-csic-compbio/get_homologues) [tutorial html](http://eead-csic-compbio.github.io/get_homologues/manual/manual.html)
-3. Filogen&oacute;mica y estructura filogen?tica del pan-genoma
- +  pr?cticas con [GET_PHYLOMARKERS](https://github.com/vinuesa/get_phylomarkers)
 
-Desde este sitio se distribuyen los materiales did&aacute;cticos bajo la [licencia de
-Creative Commons](https://creativecommons.org/).
-
--->
-
-### Tema 0: Introduction to GNU/Linux
+### Theme 2: Introduction to GNU/Linux
 Work in genomics is mostly performed on UNIX or GNU/Linux servers. It is therefore essential to work proficiently in these environments.
 Therfore:
 
@@ -109,21 +101,18 @@ Therfore:
 - we'll start the course by learning basic Linux commands and Bash programming
 
 #### Biocomputing on GNU/Linux machines
-- [presentaci&oacute;n - PDF](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/Intro2biocomputo_sistemas_en_sistemas_UNIX-Linux.pdf)
+- [presentaci&oacute;n - PDF](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/intro2linux/intro_al_biocomputo_con_Linux.pdf)
 
-#### Pr&aacute;ctica 1. Primer contacto con un sistema GNU/Linux
+#### Computer lab 1. First contact with the GNU/Linux computing environment
 - [pr&aacute;ctica1 - html](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/intro2linux/)
 - [pr&aacute;ctica1 - pdf](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/intro2linux/working_with_linux_commands.pdf)
 - [pr&aacute;ctica1 - tabla_comandos](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/intro2linux/linux_commands.tab)
 
-
-#### Pr&aacute;ctica 2. Descarga de secuencias en formato FASTA de GenBank usando el sistema ENTREZ y parseo de los archivos usando herrramientas de filtrado
+#### Computer lab 2. Fetching FASTA sequences from GenBank with ENTREZ parsing of files using the Linux filtering toolbox
 - [pr&aacute;ctica2 - html](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/practica2_parseo_fastas/)
 - [pr&aacute;ctica2 - pdf](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/practica2_parseo_fastas/ejercicio_parseo_fastas_ENTREZ.pdf)
 - [pr&aacute;ctica2 - fasta](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/practica2_parseo_fastas/data/recA_Bradyrhizobium_vinuesa.fa)
 
-### Tema 1: Conceptos básicos de evolución
-- [presentación - pdf](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema1_conceptos_basicos_evolucion/Teoria1_conceptos_básicos_de_filoinformática_y_diversidad_microbiana.pdf)
 
 <!--
 
@@ -172,4 +161,3 @@ Therfore:
 
 -->
 
--->
