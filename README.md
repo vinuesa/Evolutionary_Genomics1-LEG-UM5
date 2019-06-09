@@ -1,4 +1,4 @@
-# Introduction to evolutionary genomics - LEG/UM5
+# **Introduction to Evolutionary Genomics - LEG/UM5**
 
 ## Course (editions)
 
@@ -87,45 +87,46 @@ To follow the course practicals, you will need to install the following software
 - [FigTree (para visualizar y editar árboles)](http://tree.bio.ed.ac.uk/)
 - [MrBayes](http://mrbayes.sourceforge)
 
+
+***
+
 ## Detailed syllabus, slides, hands-on tutorials and data
 
-### Theme 1: Basic concepts in microbial evolutionary genomics
+### Block 1: Basic concepts in microbial evolutionary genomics
 - [presentación - pdf](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema1_conceptos_basicos_evolucion/Teoria1_conceptos_básicos_de_filoinformática_y_diversidad_microbiana.pdf)
 
 
-### Theme 2: Introduction to GNU/Linux
+### Block 2: Introduction to GNU/Linux
 Work in genomics is mostly performed on UNIX or GNU/Linux servers. It is therefore essential to work proficiently in these environments.
 Therfore:
 
 - all practical sessions will be run using GNU/Linux as the operating system
 - we'll start the course by learning basic Linux commands and Bash programming
 
-#### Biocomputing on GNU/Linux machines
+#### 2.1 Biocomputing on GNU/Linux machines
 - [presentaci&oacute;n - PDF](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/intro2linux/intro_al_biocomputo_con_Linux.pdf)
 
-#### Computer lab 1. First contact with the GNU/Linux computing environment
+#### 2.2 Computer lab 1. First contact with the GNU/Linux computing environment
 - [pr&aacute;ctica1 - html](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/intro2linux/)
 - [pr&aacute;ctica1 - pdf](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/intro2linux/working_with_linux_commands.pdf)
 - [pr&aacute;ctica1 - tabla_comandos](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/intro2linux/linux_commands.tab)
 
-#### Computer lab 2. Fetching FASTA sequences from GenBank with ENTREZ parsing of files using the Linux filtering toolbox
+#### 2.3 Computer lab 2. Fetching FASTA sequences from GenBank with ENTREZ parsing of files using the Linux filtering toolbox
 - [pr&aacute;ctica2 - html](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/practica2_parseo_fastas/)
 - [pr&aacute;ctica2 - pdf](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/practica2_parseo_fastas/ejercicio_parseo_fastas_ENTREZ.pdf)
 - [pr&aacute;ctica2 - fasta](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/practica2_parseo_fastas/data/recA_Bradyrhizobium_vinuesa.fa)
 
+### Block 3. searching for homologous sequences using BLAST on the command line: theory and practice
+- [slides - pdf](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema2_BLAST/Tema2_BLAST_OVERVIEW.pdf)
+- [computer lab1 - commands](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema2_BLAST/data/running_and_parsing_BLAST_from_the_cmmd_line.commands)
+- [computer lab1 - 16S_4blastN.tgz ](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema2_BLAST/data/16S_4blastN.tgz)
+- [computer lab1 - gene_discovery_and_annotation_using_blastx.tgz](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema2_BLAST/data/gene_discovery_and_annotation_using_blastx.tgz)
 
-<!--
-
-### Tema 2: Búsqueda de homólogos mediante BLAST: teoría y práctica
-- [presentación - pdf](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema2_BLAST/Tema2_BLAST_OVERVIEW.pdf)
-- [pr&aacute;ctica1 - comandos](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema2_BLAST/data/running_and_parsing_BLAST_from_the_cmmd_line.commands)
-- [pr&aacute;ctica1 - 16S_4blastN.tgz ](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema2_BLAST/data/16S_4blastN.tgz)
-- [pr&aacute;ctica1 - gene_discovery_and_annotation_using_blastx.tgz](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema2_BLAST/data/gene_discovery_and_annotation_using_blastx.tgz)
-
-### Tema 3: Alineamientos múltiples: teoría y práctica
+### Block 4. multiple sequence alignment: theory and practice
 - [presentación - pdf](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema3_alineamientos_multiples/Tema3_alineamientos_multiples.pdf)
 - [pr&aacute;ctica1 - tgz](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema3_alineamientos_multiples/data/practicas_aln_multiples.tgz)
 
+<!--
 
 ### Tema 4: Introducción a los métodos filogenéticos y modelado paramétrico de evolución de secuencias nucleotídicas: teoría y práctica
 - [presentación - pdf](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema4_modelos_y_maxima_verosimilitud/Tema4_intro_a_la_filogenetica_y_modelos_de_sustitucion.pdf)
