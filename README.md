@@ -21,7 +21,7 @@ integrate genomics and bioinformatics with molecular genetics and biology to stu
 of opportunistic nosocomial pathogens from environmental bacteria.
 
 ### On teaching materials
-They are distributed from this [GitHub repository](https://github.com/vinuesa/Evolutionary_Genomics1-LEG-UM5) and include the slides, exercises and data that will be used in the course. These materials were compiled them from those I've developed over the years to teach diverse courses at the 
+They are distributed from this [GitHub repository](https://github.com/vinuesa/Evolutionary_Genomics1-LEG-UM5) and include the slides, exercises and data that will be used in the course. These materials were compiled from those I've developed over the years to teach diverse courses at the 
  [Universidad Nacional Aut&oacute;noma de M&eacute;xico - UNAM](https://www.unam.mx/). The current version of the materials is written in Spanish. Future versions will be progressively translated to English.
 
 ### Licencia y t&eacute;rminos de uso
@@ -29,7 +29,7 @@ I'm releaseing these materials [**EG-LEG-UM5**](https://github.com/vinuesa/Evolu
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 
 
-#### Cloning of the repository
+#### Cloning the repository
 If you have [git](https://git-scm.com/) installed on your machine, you can clone the repo by issuing the following command:
 
    <code>git clone https://github.com/vinuesa/Evolutionary_Genomics1-LEG-UM5.git</code>
@@ -52,6 +52,8 @@ de 9 a 18 hrs. Algunas sesines te&oacute;ricas esperamos poder impartirlas en el
 
 ### Aims, structure and overview of the course
 Each chapter has an introductory section describing the key concepts underlying the diverse bioinformatics and evolutionary gentics topics under discussion, followed by one or more hands-on practical sessions. The course will walk you through the basics of homology searching on local machines (formatting of sequence databases for BLAST searches), multiple sequence alignment and phylogenetic inference under the maximum-likelihood and Bayesian optimality criteria, progressing towards microbial pan-genome analysis and phylogenomics. 
+
+Classes will take place from 9:00 to 13:00 and 14:30 to 18:00, Monday 10th to Friday 14th, a the Faculté des Sciences - UM5, Rabat, with the following schedule:
 
 #### Monday 10. 
 - Basic concepts in evolutionary biology and phylogenetics (theory)
@@ -125,10 +127,12 @@ Therfore:
 - [slides - pdf](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema3_alineamientos_multiples/Tema3_alineamientos_multiples.pdf)
 - [computer lab1 - tgz](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema3_alineamientos_multiples/data/practicas_aln_multiples.tgz)
 
-<!--
 
-### Tema 4: Introducción a los métodos filogenéticos y modelado paramétrico de evolución de secuencias nucleotídicas: teoría y práctica
+
+### Block 5: Introduction to phylogenetic methods and modeling of sequence evolution: theory and practice
 - [presentación - pdf](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema4_modelos_y_maxima_verosimilitud/Tema4_intro_a_la_filogenetica_y_modelos_de_sustitucion.pdf)
+
+<!--
 
 ### Tema 5: Máxima verosimilitud: estima de parámetros y selección de models - teoría y práctica
 - [presentación - pdf](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema4_modelos_y_maxima_verosimilitud/Tema5_maxima_verosimilitud_y_seleccion_de_modelos.pdf)
