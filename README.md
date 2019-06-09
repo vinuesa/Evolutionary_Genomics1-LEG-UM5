@@ -65,7 +65,7 @@ Each chapter has an introductory section describing the key concepts underlying 
 #### Wednesday 12. 
 - Substitution models and phylogenetic inference under the maximum likelihood criterion (theory)
 - **Research seminar** by [Pablo Vinuesa](http://www.ccg.unam.mx/~vinuesa/): The evolution of resistance and virulence in multidrug-resistant opportunistic pathogens: a phylogenomic approach.
-- Ajuste de modelos e inferencia de filogenias de máxima verosimilitud (computer lab)
+- Model fitting and phylogenetic inference under the maximum likelihood criterion (computer lab)
 
 #### Jueves 13. 
 - Bayesian phylogenetics (theory and computer lab)
@@ -77,9 +77,8 @@ Each chapter has an introductory section describing the key concepts underlying 
 - Inferring genome phylogenies from core- and pan-genomes (theory)
 - Estimating genome phylogenies with GET_PHYLOMARKERS (computer lab)
 
-
-### Software:
-To follow the course practicals, you will need to install the following software on your laptop/computer:
+### Software
+To follow the course practicals, you will need to install the following software on your laptop/computer, preferably under Linux:
 - [GET_HOMOLOGUES](http://eead-csic-compbio)
 - [GET_PHYLOMARKERS](https://github.com/vinuesa/)
 - [Seaview (visor-editor de alineamientos y más)](http://pbil.univ-lyon1.fr/)
@@ -104,17 +103,17 @@ Therfore:
 - we'll start the course by learning basic Linux commands and Bash programming
 
 #### 2.1 Biocomputing on GNU/Linux machines
-- [presentaci&oacute;n - PDF](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/intro2linux/intro_al_biocomputo_con_Linux.pdf)
+- [slides - PDF](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/intro2linux/intro_al_biocomputo_con_Linux.pdf)
 
 #### 2.2 Computer lab 1. First contact with the GNU/Linux computing environment
-- [pr&aacute;ctica1 - html](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/intro2linux/)
-- [pr&aacute;ctica1 - pdf](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/intro2linux/working_with_linux_commands.pdf)
-- [pr&aacute;ctica1 - tabla_comandos](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/intro2linux/linux_commands.tab)
+- [computer lab1 - html](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/intro2linux/)
+- [computer lab1 - pdf](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/intro2linux/working_with_linux_commands.pdf)
+- [computer lab1 - tabla_comandos](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/intro2linux/linux_commands.tab)
 
 #### 2.3 Computer lab 2. Fetching FASTA sequences from GenBank with ENTREZ parsing of files using the Linux filtering toolbox
-- [pr&aacute;ctica2 - html](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/practica2_parseo_fastas/)
-- [pr&aacute;ctica2 - pdf](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/practica2_parseo_fastas/ejercicio_parseo_fastas_ENTREZ.pdf)
-- [pr&aacute;ctica2 - fasta](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/practica2_parseo_fastas/data/recA_Bradyrhizobium_vinuesa.fa)
+- [computer lab2 - html](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/practica2_parseo_fastas/)
+- [computer lab2 - pdf](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/practica2_parseo_fastas/ejercicio_parseo_fastas_ENTREZ.pdf)
+- [computer lab2 - fasta](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/practica2_parseo_fastas/data/recA_Bradyrhizobium_vinuesa.fa)
 
 ### Block 3. searching for homologous sequences using BLAST on the command line: theory and practice
 - [slides - pdf](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema2_BLAST/Tema2_BLAST_OVERVIEW.pdf)
@@ -123,8 +122,8 @@ Therfore:
 - [computer lab1 - gene_discovery_and_annotation_using_blastx.tgz](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema2_BLAST/data/gene_discovery_and_annotation_using_blastx.tgz)
 
 ### Block 4. multiple sequence alignment: theory and practice
-- [presentación - pdf](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema3_alineamientos_multiples/Tema3_alineamientos_multiples.pdf)
-- [pr&aacute;ctica1 - tgz](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema3_alineamientos_multiples/data/practicas_aln_multiples.tgz)
+- [slides - pdf](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema3_alineamientos_multiples/Tema3_alineamientos_multiples.pdf)
+- [computer lab1 - tgz](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema3_alineamientos_multiples/data/practicas_aln_multiples.tgz)
 
 <!--
 
@@ -153,6 +152,7 @@ Therfore:
 - [presentación - pdf](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema6_inferencia_bayesiana/inferencia_bayesiana_con_MrBayes.pdf)
 - [pr&aacute;ctica1 - tgz](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema6_inferencia_bayesiana/data/MrBayes.tgz)
 
+-->
 
 <!--
 
