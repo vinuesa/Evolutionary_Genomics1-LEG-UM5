@@ -119,13 +119,13 @@ Therfore:
 
 ### Block 3. searching for homologous sequences using BLAST on the command line: theory and practice
 - [slides - pdf](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema2_BLAST/Tema2_BLAST_OVERVIEW.pdf)
-- [computer lab1 - commands](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema2_BLAST/running_and_parsing_BLAST_from_the_cmmd_line.commands)
+- [computer lab1 - commands](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema2_BLAST/running_and_parsing_BLAST_from_the_cmmd_line.txt)
 - [computer lab1 - 16S_4blastN.tgz ](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema2_BLAST/data/16S_4blastN.tgz)
 - [computer lab1 - gene_discovery_and_annotation_using_blastx.tgz](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema2_BLAST/data/gene_discovery_and_annotation_using_blastx.tgz)
 
 ### Block 4. multiple sequence alignment: theory and practice
 - [slides - pdf](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema3_alineamientos_multiples/Tema3_alineamientos_multiples.pdf)
-- [computer lab1 - tgz](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema3_alineamientos_multiples/data/practicas_aln_multiples.tgz)
+- [computer lab1 - tgz](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema3_alineamientos_multiples/practicas_aln_multiples.tgz)
 
 
 
