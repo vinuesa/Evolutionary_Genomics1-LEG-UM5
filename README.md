@@ -90,7 +90,7 @@ To follow the course practicals, you will need to install the following software
 - [Seaview (visor-editor de alineamientos e interfaz a métodos filogenéticos)](http://pbil.univ-lyon1.fr/)
 - [jModelTest2](https://github.com/ddarriba/)
 - [FigTree (para visualizar y editar árboles)](http://tree.bio.ed.ac.uk/)
-- [MrBayes](http://mrbayes.sourceforge)
+- [MrBayes](https://nbisweden.github.io/MrBayes/download.html)
 
 
 ***
