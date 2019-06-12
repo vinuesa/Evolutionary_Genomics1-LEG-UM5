@@ -83,7 +83,11 @@ Classes will take place from 9:00 to 13:00 and 14:30 to 18:00, Monday 10th to Fr
 To follow the course practicals, you will need to install the following software on your laptop/computer, preferably under Linux:
 - [GET_HOMOLOGUES](http://eead-csic-compbio)
 - [GET_PHYLOMARKERS](https://github.com/vinuesa/)
-- [Seaview (visor-editor de alineamientos y más)](http://pbil.univ-lyon1.fr/)
+- [clustal omega]()
+- [paup*](http://phylosolutions.com/paup-test/)
+- [phyml](http://www.atgc-montpellier.fr/phyml/binaries.php)
+- [phyml - GitHub](https://github.com/stephaneguindon/phyml)
+- [Seaview (visor-editor de alineamientos e interfaz a métodos filogenéticos)](http://pbil.univ-lyon1.fr/)
 - [jModelTest2](https://github.com/ddarriba/)
 - [FigTree (para visualizar y editar árboles)](http://tree.bio.ed.ac.uk/)
 - [MrBayes](http://mrbayes.sourceforge)
@@ -129,7 +133,7 @@ Therfore:
 
 
 ### Block 5: Introduction to phylogenetic methods and modeling of sequence evolution: theory and practice
-- [presentación - pdf](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema4_modelos_y_maxima_verosimilitd/Tema4_intro_a_la_filogenetica_y_modelos_de_sustitucion.pdf)
+- [slides - pdf](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema4_modelos_y_maxima_verosimilitd/Tema4_intro_a_la_filogenetica_y_modelos_de_sustitucion.pdf)
 - [slides - pdf](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema4_modelos_y_maxima_verosimilitd/Tema5_maxima_verosimilitud_y_seleccion_de_modelos.pdf)
 
 <!--
