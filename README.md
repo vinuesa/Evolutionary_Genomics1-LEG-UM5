@@ -135,7 +135,7 @@ Therfore:
 ### Block 5: Introduction to phylogenetic methods and modeling of sequence evolution: theory and practice
 - [conceptos de filogenética - pdf](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema4_modelos_y_maxima_verosimilitd/Tema4_intro_a_la_filogenetica_y_modelos_de_sustitucion.pdf)
 - [filogenética: máxima verosimilitud - pdf](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema4_modelos_y_maxima_verosimilitd/Tema5_maxima_verosimilitud_y_seleccion_de_modelos.pdf)
-- [máxima verosimilitud - práctica pdf](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema4_modelos_y_maxima_verosimilitd/phyml_tutorial.tgz)
+- [máxima verosimilitud - práctica tgz](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema4_modelos_y_maxima_verosimilitd/phyml_tutorial.tgz)
 
 <!--
 
