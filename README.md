@@ -38,8 +38,6 @@ On [ubuntu](https://www.ubuntu.com/) (and other Linux) machines it is very easy 
 
   <code>sudo apt install git</code>
 
-
-
 <!--
 ### ¿Horario y lugar de impartici&oacute;n de las sesiones?
 Las clases se imparten en el sal&oacute;n de c&oacute;mputo del Instituto de Biotecnolog&iacute;a 
@@ -53,7 +51,7 @@ de 9 a 18 hrs. Algunas sesines te&oacute;ricas esperamos poder impartirlas en el
 ### Aims, structure and overview of the course
 Each chapter has an introductory section describing the key concepts underlying the diverse bioinformatics and evolutionary gentics topics under discussion, followed by one or more hands-on practical sessions. The course will walk you through the basics of homology searching on local machines (formatting of sequence databases for BLAST searches), multiple sequence alignment and phylogenetic inference under the maximum-likelihood and Bayesian optimality criteria, progressing towards microbial pan-genome analysis and phylogenomics. 
 
-Classes will take place from 9:00 to 13:00 and 14:30 to 18:00, Monday 10th to Friday 14th, a the Faculté des Sciences - UM5, Rabat, with the following schedule:
+Classes will take place from 9:00 to 13:00 and 14:30 to 18:00, Monday 10th to Friday 14th, at the Faculté des Sciences - UM5, Rabat, sale des actes, with the following schedule:
 
 #### Monday 10. 
 - Basic concepts in evolutionary biology and phylogenetics (theory)
@@ -65,8 +63,8 @@ Classes will take place from 9:00 to 13:00 and 14:30 to 18:00, Monday 10th to Fr
 - Introduction to phylogenetics, gene trees and species trees (theory)
 
 #### Wednesday 12. 
-- Substitution models and phylogenetic inference under the maximum likelihood criterion (theory)
 - **Research seminar** by [Pablo Vinuesa](http://www.ccg.unam.mx/~vinuesa/): The evolution of resistance and virulence in multidrug-resistant opportunistic pathogens: a phylogenomic approach.
+- Substitution models and phylogenetic inference under the maximum likelihood criterion (theory)
 - Model fitting and phylogenetic inference under the maximum likelihood criterion (computer lab)
 
 #### Jueves 13. 
@@ -81,17 +79,16 @@ Classes will take place from 9:00 to 13:00 and 14:30 to 18:00, Monday 10th to Fr
 
 ### Software
 To follow the course practicals, you will need to install the following software on your laptop/computer, preferably under Linux:
+- [clustal omega](http://www.clustal.org/omega/)
+- [paup*](http://phylosolutions.com/paup-test/)
+- [phyml - binaries](http://www.atgc-montpellier.fr/phyml/binaries.php)
+- [phyml - src code at GitHub](https://github.com/stephaneguindon/phyml)
+- [Seaview (alignment editor and multiple phylogenetic methods)](http://pbil.univ-lyon1.fr/)
+- [jModelTest2](https://github.com/ddarriba/)
+- [FigTree (visualize and edit trees)](http://tree.bio.ed.ac.uk/)
+- [MrBayes](https://nbisweden.github.io/MrBayes/download.html)
 - [GET_HOMOLOGUES](http://eead-csic-compbio)
 - [GET_PHYLOMARKERS](https://github.com/vinuesa/)
-- [clustal omega]()
-- [paup*](http://phylosolutions.com/paup-test/)
-- [phyml](http://www.atgc-montpellier.fr/phyml/binaries.php)
-- [phyml - GitHub](https://github.com/stephaneguindon/phyml)
-- [Seaview (visor-editor de alineamientos e interfaz a métodos filogenéticos)](http://pbil.univ-lyon1.fr/)
-- [jModelTest2](https://github.com/ddarriba/)
-- [FigTree (para visualizar y editar árboles)](http://tree.bio.ed.ac.uk/)
-- [MrBayes](https://nbisweden.github.io/MrBayes/download.html)
-
 
 ***
 
@@ -133,9 +130,11 @@ Therfore:
 
 
 ### Block 5: Introduction to phylogenetic methods and modeling of sequence evolution: theory and practice
-- [conceptos de filogenética - pdf](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema4_modelos_y_maxima_verosimilitd/Tema4_intro_a_la_filogenetica_y_modelos_de_sustitucion.pdf)
-- [filogenética: máxima verosimilitud - pdf](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema4_modelos_y_maxima_verosimilitd/Tema5_maxima_verosimilitud_y_seleccion_de_modelos.pdf)
-- [práctica phyml - tgz](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema4_modelos_y_maxima_verosimilitd/phyml_tutorial.tgz)
+- [slides: overview of phylogenetic methods - pdf](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema4_modelos_y_maxima_verosimilitd/Tema4_intro_a_la_filogenetica_y_modelos_de_sustitucion.pdf)
+- [slides: phylogenetics under the ML criterion - pdf](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema4_modelos_y_maxima_verosimilitd/Tema5_maxima_verosimilitud_y_seleccion_de_modelos.pdf)
+- [computer lab phyml - tgz](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema4_modelos_y_maxima_verosimilitd/phyml_tutorial.tgz)
+- [computer lab jModelTest2 - tgz]()
+
 
 <!--
 
