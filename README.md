@@ -140,6 +140,9 @@ Therfore:
 - [computer lab jModelTest2 - tgz]()
 
 
+<img src="docs/pics/group_photo_in_Salle_des_actes.jpg" />
+
+
 <!--
 
 - [pr&aacute;ctica1 - tgz](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema4_modelos_y_maxima_verosimilitud/data/practicas_MV_y_seleccion_modelos.tgz)
