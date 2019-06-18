@@ -90,6 +90,10 @@ To follow the course practicals, you will need to install the following software
 - [GET_HOMOLOGUES](http://eead-csic-compbio)
 - [GET_PHYLOMARKERS](https://github.com/vinuesa/)
 
+#### Running a shell on Windows and a decent text editor
+- [mobaXterm](https://mobaxterm.mobatek.net/)
+- [Notepad++](https://notepad-plus-plus.org/download/v7.7.html)
+
 ***
 
 ## Detailed syllabus, slides, hands-on tutorials and data
