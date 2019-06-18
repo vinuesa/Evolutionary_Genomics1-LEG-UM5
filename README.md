@@ -4,7 +4,7 @@
 
 1st. Edition [EG1-LEG/UM5](http://www.fsr.ac.ma/content/g%C3%A9nomique) @ Faculté des Sciences Rabat, June 10-14, 2019.
 
-<!-- <img src="docs/pics/Participantes_curso_intro2phyloinfo_UNLP_2-6Julio2018.jpg" /> -->
+<img src="docs/pics/group_photo_in_front_of_Salle_des_actes.jpg" />
 
 
 ***
