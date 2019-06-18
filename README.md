@@ -140,7 +140,7 @@ Therfore:
 - [computer lab jModelTest2 - tgz]()
 
 
-<img src="docs/pics/group_photo_in_Salle_des_actes.jpg" width="300" height="250"> />
+<img src="docs/pics/group_photo_in_Salle_des_actes.jpg" width="500" height="450">
 
 
 <!--
