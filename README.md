@@ -24,8 +24,8 @@ of opportunistic nosocomial pathogens from environmental bacteria.
 They are distributed from this [GitHub repository](https://github.com/vinuesa/Evolutionary_Genomics1-LEG-UM5) and include the slides, exercises and data that will be used in the course. These materials were compiled from those I've developed over the years to teach diverse courses at the 
  [Universidad Nacional Aut&oacute;noma de M&eacute;xico - UNAM](https://www.unam.mx/). The current version of the materials is written in Spanish. Future versions will be progressively translated to English.
 
-### Licencia y t&eacute;rminos de uso
-I'm releaseing these materials [**EG-LEG-UM5**](https://github.com/vinuesa/Evolutionary_Genomics1-LEG-UM5) to the public domain through this [GitHub repository]((https://github.com/vinuesa/Evolutionary_Genomics1-LEG-UM5) under a [**No Comercial Creative Commons 4.0 License**](https://creativecommons.org/licenses/by-nc/4.0/) 
+### Licence and terms of use
+I'm releaseing these materials [**EG-LEG-UM5**](https://github.com/vinuesa/Evolutionary_Genomics1-LEG-UM5) to the public domain through this [GitHub repository](https://github.com/vinuesa/Evolutionary_Genomics1-LEG-UM5) under a [**No Comercial Creative Commons 4.0 License**](https://creativecommons.org/licenses/by-nc/4.0/) 
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 
 
@@ -90,7 +90,7 @@ To follow the course practicals, you will need to install the following software
 - [GET_HOMOLOGUES](http://eead-csic-compbio)
 - [GET_PHYLOMARKERS](https://github.com/vinuesa/)
 
-#### Running a shell on Windows and a decent text editor
+#### suggestions for running a shell on Windows and a decent text editor, if you don't have access to a Linux machine
 - [mobaXterm](https://mobaxterm.mobatek.net/)
 - [Notepad++](https://notepad-plus-plus.org/download/v7.7.html)
 
@@ -137,7 +137,7 @@ Therfore:
 - [slides: overview of phylogenetic methods - pdf](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema4_modelos_y_maxima_verosimilitd/Tema4_intro_a_la_filogenetica_y_modelos_de_sustitucion.pdf)
 - [slides: phylogenetics under the ML criterion - pdf](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema4_modelos_y_maxima_verosimilitd/Tema5_maxima_verosimilitud_y_seleccion_de_modelos.pdf)
 - [computer lab phyml - tgz](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema4_modelos_y_maxima_verosimilitd/phyml_tutorial.tgz)
-- [computer lab jModelTest2 - tgz]()
+- [computer lab jModelTest2 - tgz](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema4_modelos_y_maxima_verosimilitd/practica_jmodeltest.tgz)
 
 
 <img src="docs/pics/group_photo_in_Salle_des_actes.jpg" width="450" height="350">
