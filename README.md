@@ -51,7 +51,7 @@ de 9 a 18 hrs. Algunas sesines te&oacute;ricas esperamos poder impartirlas en el
 ### Aims, structure and overview of the course
 Each chapter has an introductory section describing the key concepts underlying the diverse bioinformatics and evolutionary gentics topics under discussion, followed by one or more hands-on practical sessions. The course will walk you through the basics of homology searching on local machines (formatting of sequence databases for BLAST searches), multiple sequence alignment and phylogenetic inference under the maximum-likelihood and Bayesian optimality criteria, progressing towards microbial pan-genome analysis and phylogenomics. 
 
-Classes will take place from 9:00 to 13:00 and 14:30 to 18:00, Monday 10th to Friday 14th, at the Faculté des Sciences - UM5, Rabat, sale des actes, with the following schedule:
+Classes will take place from 9:00 to 13:00 and 14:30 to 18:00, Monday 10th to Friday 14th, at the Faculté des Sciences - UM5, Rabat, salle des actes, with the following schedule:
 
 #### Monday 10. 
 - Basic concepts in evolutionary biology and phylogenetics (theory)
@@ -67,11 +67,11 @@ Classes will take place from 9:00 to 13:00 and 14:30 to 18:00, Monday 10th to Fr
 - Substitution models and phylogenetic inference under the maximum likelihood criterion (theory)
 - Model fitting and phylogenetic inference under the maximum likelihood criterion (computer lab)
 
-#### Jueves 13. 
+#### Thursday 13. 
 - Bayesian phylogenetics (theory and computer lab)
 - Discussion with students and Faculty, on research projects
 
-#### Viernes 14.
+#### Friday 14.
 - Computing homologous gene families from genomic data (theory)
 - Pan-genome analyses with GET_HOMOLOGUES (computer lab)
 - Inferring genome phylogenies from core- and pan-genomes (theory)
@@ -140,7 +140,7 @@ Therfore:
 - [computer lab jModelTest2 - tgz]()
 
 
-<img src="docs/pics/group_photo_in_Salle_des_actes.jpg" width="400" height="350">
+<img src="docs/pics/group_photo_in_Salle_des_actes.jpg" width="450" height="350">
 
 
 <!--
