@@ -139,6 +139,8 @@ Therfore:
 - [computer lab phyml - tgz](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema4_modelos_y_maxima_verosimilitd/phyml_tutorial.tgz)
 - [computer lab jModelTest2 - tgz](https://vinuesa.github.io/Evolutionary_Genomics1-LEG-UM5/tema4_modelos_y_maxima_verosimilitd/practica_jmodeltest.tgz)
 
+### Block 6: Introduction to microbial comparative and evolutionary genomics
+This block could not be taught in the 1st version of the course, because the associated software requires a full Linux installation. For those interested in working on this block by themselves, I'm providing links to the online tutorial for [GET_HOMOLOGUES and GET_PHYLOMARKERS](https://vinuesa.github.io/get_phylomarkers/).
 
 <img src="docs/pics/group_photo_in_Salle_des_actes.jpg" width="450" height="350">
 
